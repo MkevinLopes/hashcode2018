@@ -6,7 +6,13 @@ public class Voiture {
 	public Trajet ride;
 	
 	public boolean isRiding;
+	
+	public int id;
 
+	public Voiture(int id) {
+		this.id = id;
+	}
+	
 	public Coordonnees getPosition() {
 		return position;
 	}
