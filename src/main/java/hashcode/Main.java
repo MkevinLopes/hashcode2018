@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException
 	{
-		Grille grille = lireFichier("‪toto");
+		Grille grille = lireFichier("a_example.in");
 		
 		System.out.println("coucou");
 	}
