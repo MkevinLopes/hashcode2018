@@ -15,12 +15,15 @@ public class WriteFile {
 
     	try {
     	    BufferedWriter writer = new BufferedWriter(new FileWriter("resultat.txt"));
-    	    for (Voiture voiture : voitures) {
-    	    	writer.write(voiture.trajets.size());
-    	    	for (Trajet trajet : voiture.trajets) {
-    	    		writer.write(' ' + trajet.id);
-				}
-			}
+    	    if(voitures != null) {
+        	    for (Voiture voiture : voitures) {
+        	    	writer.write(Integer.toString(voiture.trajets.size()));
+        	    	for (Trajet trajet : voiture.trajets) {
+        	    		writer.write(" " + Integer.toString(trajet.id) );
+    				}
+        	    	writer.write("\n");
+    			}
+    	    }
 		    writer.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

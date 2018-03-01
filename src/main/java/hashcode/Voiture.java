@@ -1,11 +1,12 @@
 package hashcode;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class Voiture {
 	private Coordonnees position;
 
-	List<Trajet> trajets;	
+	List<Trajet> trajets = new LinkedList<Trajet>();	
 	
 	public Trajet ride;
 	
