@@ -36,7 +36,7 @@ public class Main {
 		//Trajets
 		while ((line = br.readLine()) != null) {
 			//Ajout des trajets
-			Trajet trajet = new Trajet();
+			Trajet trajet = new Trajet(grille.getListeRides().size());
 			
 			String[] ligne = line.split(" ");
 			trajet.setCoordDepart(new Coordonnees(Integer.parseInt(ligne[0]), Integer.parseInt(ligne[1])));

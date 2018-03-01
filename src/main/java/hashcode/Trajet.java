@@ -1,11 +1,16 @@
 package hashcode;
 
 public class Trajet {
+	public int id;
 	private Coordonnees coordDepart;
 	private Coordonnees coordArrivee;
 	private int heureDepart;
 	private int heureArrivee;
 
+	public Trajet(int id) {
+		this.id = id;
+	}
+	
 	public Coordonnees getCoordDepart() {
 		return coordDepart;
 	}
