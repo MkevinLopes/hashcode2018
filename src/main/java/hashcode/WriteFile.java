@@ -18,7 +18,7 @@ public class WriteFile {
     	    for (Voiture voiture : voitures) {
     	    	writer.write(voiture.trajets.size());
     	    	for (Trajet trajet : voiture.trajets) {
-    	    		writer.write(' ' + trajet.numero);
+    	    		writer.write(' ' + trajet.id);
 				}
 			}
 		    writer.close();
