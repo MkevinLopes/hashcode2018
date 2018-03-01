@@ -1,6 +1,7 @@
 package hashcode;
 
 public class Trajet {
+	public int numero;
 	private Coordonnees coordDepart;
 	private Coordonnees coordArrivee;
 	private int heureDepart;
