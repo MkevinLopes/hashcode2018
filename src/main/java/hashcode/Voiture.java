@@ -1,7 +1,11 @@
 package hashcode;
 
+import java.util.List;
+
 public class Voiture {
 	private Coordonnees position;
+
+	List<Trajet> trajets;	
 	
 	public Trajet ride;
 	
