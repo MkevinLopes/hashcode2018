@@ -13,7 +13,7 @@ public class Main {
 		System.out.println("coucou");
 	}
 
-	private static Grille lireFichier(String filePath) throws IOException
+	public static Grille lireFichier(String filePath) throws IOException
 	{
 		Grille grille = new Grille();
 		
