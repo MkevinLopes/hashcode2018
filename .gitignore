@@ -1,3 +1,6 @@
 /.metadata/
 RemoteSystemsTempFiles/.Project
 /target/*
+/bin/*
+.project
+.classpath
