@@ -1,3 +1,4 @@
+package hashcode;
 
 public class Trajet {
 	private Coordonnees coordDepart;

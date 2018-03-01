@@ -1,3 +1,4 @@
+package hashcode;
 
 public class Voiture {
 	private Coordonnees position;
